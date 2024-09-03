@@ -1,0 +1,151 @@
+body{
+    font-size: 14px;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+ul,ol,dl{
+    list-style: none;
+}
+#wrap{
+    width: 100%;
+}
+#wrap > ul{
+    display: flex;
+}
+#wrap #left{
+    width: 200px;
+}
+#wrap #midde{
+    width: 400px;
+}
+#wrap #right{
+    width: calc(100% - 600px);
+}
+#header{}
+#header h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-bottom: solid 1px #000;
+}
+#header h1 a{
+    display: block;
+}
+#header h1 a img{
+    display: block;
+}
+
+#header nav{}
+#header .depth-01{
+    padding: 20px;
+}
+#header .depth-01 > li{}
+#header .depth-01 > li > a{
+    display: block;
+    line-height: 40px;
+    background-color: #ff3c00;
+    color: #fff;
+    text-indent: 10px;
+    transition: all 0.2s ease-in-out;
+}
+#header .depth-02{
+    height: 0;
+    overflow: hidden;
+    transition: all 0.6s ease-in-out;
+}
+#header .depth-02 li{}
+#header .depth-02 li a{
+    display: block;
+    line-height: 30px;
+    text-align: center;
+    background-color: #d9d9d9;
+    transition: all 0.2s ease-in-out;
+}
+#spot-menu{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 12px;
+}
+
+#header .depth-01 li:hover .depth-02{
+    height: 120px;
+}
+#header .depth-01 > li:hover > a{
+    background-color: #ff693e;
+}
+#header .depth-02 li:hover a{
+    background-color: #fff;
+    color: #333;
+}
+
+/* //////콘텐츠////// */
+
+#contents{}
+#contents > ul{}
+
+#middle-banner{
+    border-bottom: solid 1px #000;
+}
+#middle-banner a{
+    display: block;
+}
+#middle-banner a img{
+    display: block;
+}
+
+#notice{}
+#notice .notice-box{
+    padding: 20px; 
+    background-color: #d9d9d9;
+    border-bottom: solid 1px #000;
+}
+#notice .notice-box p{
+    padding: 5px 10px;
+    background-color: #ff3c00;
+    color: #fff;
+    width: 20%;
+    text-align: center;
+}
+#notice .notice-box .ab-box{}
+#notice .notice-box .ab-box dl{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px;
+}
+#notice .notice-box .ab-box dl dt{}
+#notice .notice-box .ab-box dl dd{}
+
+#gallery{}
+#gallery .gallery-box{
+    padding: 20px;
+    background-color: #d9d9d9;
+}
+#gallery .gallery-box ul{
+    display: flex;
+    justify-content: space-between;
+}
+#gallery .gallery-box ul li{
+    width: 45%;
+}
+#gallery .gallery-box ul li a{
+    display: block;
+}
+#gallery .gallery-box ul li a p{
+    text-align: center;
+    padding: 5px 0;
+}
+#gallery .gallery-box ul li img{
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
