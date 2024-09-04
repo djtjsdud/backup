@@ -15,7 +15,7 @@
                     <li>
                         <a href="#">김치 소개</a>
                         <ul class="depth-02">
-                            <li><a href="#">초대의 글</a></li>
+                            <li><a href="#" class="popup-button">초대의 글</a></li>
                             <li><a href="#">김치의 유래</a></li>
                             <li><a href="#">김치 재료</a></li>
                             <li><a href="#">오시는 길</a></li>
@@ -64,7 +64,7 @@
                         <p>공지사항</p>
                         <div class="ab-box">
                             <dl>
-                                <dt><a href="#none">상반기 신입/경력 사원 채용 공고</a></dt>
+                                <dt><a href="#none" class="popup-button">상반기 신입/경력 사원 채용 공고</a></dt>
                                 <dd><a href="#">2020.11.20</a></dd>
                             </dl>
                             <dl>
@@ -84,6 +84,7 @@
                 </article>
                 <article id="gallery">
                     <div class="gallery-box">
+                        <p>갤러리</p>
                         <ul>
                             <li><a href="#"><img src="./images/galleryimage1 1.png" alt="첫 번째 갤러리 사진"><p>맛있는 김치</p></a></li>
                             <li><a href="#"><img src="./images/galleryimage2 1.png" alt="두 번째 갤러리 사진"><p>먹고싶은가요</p></a></li>
@@ -100,9 +101,41 @@
                 </article>
             </section>
             <section id="main-banner">
-                <div><a href="#"><img src="./images/mainbanner.jpg" alt="메인 배너 이미지"></a></div>
+                <div><a href="#"></a></div>
             </section>
         </main>
+        <footer id="footer">
+            <ul>
+                <li class="footer-logo">
+                    <a href="#"><img src="./images/mainlogo(gimchi).png" alt="푸터 로고 이미지"></a>
+                </li>
+                <li class="footer-right">
+                    <ul>
+                        <li class="footermenu-list">
+                            <ul>
+                                <li>상품</li>
+                                <li>이용자 후기</li>
+                                <li>맞춤형 김치</li>
+                                <li>김치 맛보기</li>
+                                <li>김치 라이브러리</li>
+                                <li>공지사항</li>
+                            </ul>
+                        </li>
+                        <li class="copyright">gimchi@copyright</li>
+                    </ul>
+                </li>
+            </ul>
+        </footer>
     </div>
+    <div id="popup-box">
+        <div>
+            <h3>선호하는 김치</h3>
+            <p>김치 설문 조사를 시작합니다. <br> 당신은 어떤 종류의 김치를 좋아하시나요?
+            </p>
+            <button class="close-btn">닫기</button>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="./script/main.js"></script>
 </body>
 </html>
