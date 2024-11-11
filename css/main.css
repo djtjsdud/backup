@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,ol,dl{
+    list-style: none;
+}
+
+.menu{
+    width: 200px;
+    height: 650px;
+}
+
+.menu h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menu h1 img{
+    display: block;
+    width: 200px;
+}
+.menu nav{
+    padding: 40px 20px;
+    margin: 0 auto;
+}
+.menu .depth-01{}
+.menu .depth-01 > li{
+    position: relative;
+}
+.menu .depth-01 > li:hover .depth-02{
+    height: 120px;
+}
+.menu .depth-01 > li > a{
+    display: block;
+    color: #333;
+    line-height: 40px;
+    background-color: #abb6ff;
+    padding-left: 10px;
+}
+.menu .depth-02{
+    height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+.menu .depth-02 li{}
+.menu .depth-02 > li > a{
+    display: block;
+    color: #333;
+    line-height: 40px;
+    background-color: #eee;
+    padding-left: 10px;
+}
