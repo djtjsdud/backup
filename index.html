@@ -3,51 +3,185 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>서울구석구석</title>
+    <title>기능대학교</title>
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <section class="menu">
-        <h1><img src="/images/logo.png" alt="메인로고 이미지입니다."></h1>
+    <!-- 헤더 영역 -->
+    <header class="container">
+        <h1>
+            <a href="#"><img src="./images/logo-img.png" alt="기능대학교 로고 이미지입니다."></a>
+        </h1>
         <nav>
             <ul class="depth-01">
                 <li>
-                    <a href="#none">지금의 서울</a>
+                    <a href="#none">교육/소개</a>
                     <ul class="depth-02">
-                        <li><a href="#none">이벤트</a></li>
-                        <li><a href="#none">축제&행사</a></li>
-                        <li><a href="#none">전시</a></li>
+                        <li><a href="#none">대학</a></li>
+                        <li><a href="#none">대학원</a></li>
+                        <li><a href="#none">대학현황</a></li>
+                        <li><a href="#none">대학상징</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="#none">추천</a>
+                    <a href="#none">연구</a>
                     <ul class="depth-02">
-                        <li><a href="#none">에디터 추천</a></li>
-                        <li><a href="#none">테마코스</a></li>
-                        <li><a href="#none">도보해설관광</a></li>
-                        <li><a href="#none">한류관광</a></li>
+                        <li><a href="#none">연구성과</a></li>
+                        <li><a href="#none">연구현황</a></li>
+                        <li><a href="#none">연구기관</a></li>
+                        <li><a href="#none">연구지원</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="#none">여행지</a>
+                    <a href="#none">입학</a>
                     <ul class="depth-02">
-                        <li><a href="#none">명소</a></li>
-                        <li><a href="#none">엔터테인먼트</a></li>
-                        <li><a href="#none">음식</a></li>
-                        <li><a href="#none">게스트하우스</a></li>
+                        <li><a href="#none">대학</a></li>
+                        <li><a href="#none">대학원</a></li>
+                        <li><a href="#none">편입학</a></li>
+                        <li><a href="#none">글로벌</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="#none">여행정보</a>
+                    <a href="#none">대학생활</a>
                     <ul class="depth-02">
-                        <li><a href="#none">가이드북&지도</a></li>
-                        <li><a href="#none">시티투어버스</a></li>
-                        <li><a href="#none">날씨</a></li>
+                        <li><a href="#none">뉴스</a></li>
+                        <li><a href="#none">학생활동</a></li>
+                        <li><a href="#none">캠퍼스생활</a></li>
+                        <li><a href="#none">학사행정</a></li>
                     </ul>
                 </li>
             </ul>
         </nav>
+    </header>
+    <!-- 슬라이드 영역 -->
+    <section class="banner-slide">
+        <div>
+            <ul class="all-slide">
+                <li class="slide1-img"><a href="#none"></a></li>
+                <li class="slide2-img"><a href="#none"></a></li>
+                <li class="slide3-img"><a href="#none"></a></li>
+            </ul>
+        </div>
+        <ul class="all-direct-btn container">
+            <li><a href="#none"><img src="./images/baro1.png" alt="캘린더 바로가기 버튼 이미지입니다."></a></li>
+            <li><a href="#none"><img src="./images/baro2.png" alt="비디오 바로가기 버튼 이미지입니다."></a></li>
+            <li><a href="#none"><img src="./images/baro3.png" alt="위치안내 바로가기 버튼 이미지입니다."></a></li>
+            <li><a href="#none"><img src="./images/baro4.png" alt="상담 바로가기 버튼 이미지입니다."></a></li>
+            <li><a href="#none"><img src="./images/baro5.png" alt="갤러리 바로가기 버튼 이미지입니다."></a></li>
+        </ul>
     </section>
-    <script src="../backup/script/jquery-3.7.0.min.js"></script>
+    <!-- 콘텐츠 영역 -->
+    <section class="content">
+
+        <article class="middle-banner">
+            <div class="banner-left">
+                <span class="banner-img-box"><img src="./images/icon.png" alt="아이콘 이미지입니다."></span>
+                <div class="banner-text-box">
+                    <p class="banner-title">기능대학교: 미래를 여는 혁신적인 학습 환경</p>
+                    <p class="banner-detail">기능대학교는 미래를 준비하는 학생들에게 최고의 선택지가 되기 위해 노력하고 있습니다. <br>함께 더 나은 미래를 위해 여러분을 초대합니다.</p>
+                </div>
+            </div>
+            <a href="#none">
+                <span class="banner-direct-btn"></span>
+            </a>
+        </article>
+
+        <article class="two-content">
+            <ul class="tab">
+                <li>
+                    <input type="radio" id="notice" name="tab-box" checked>
+                    <!-- 네임이 걸려있어야 배반적 선택이 가능함 -->
+                    <label for="notice">공지사항</label>
+                    <div class="ab-box">
+                        <dl class="open-btn">
+                            <dt><a href="#none">웹디자인 기능사 풀어보아요</a></dt>
+                            <dd><a href="#none">2030-12-15</a></dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="#none">실기합격률 95% 유지중</a></dt>
+                            <dd><a href="#none">2030-12-15</a></dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="#none">쉽게 쉽게 풀어봅시다</a></dt>
+                            <dd><a href="#none">2030-12-15</a></dd>
+                        </dl>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" id="board" name="tab-box">
+                    <label for="board">게시판</label>
+                    <div class="ab-box">
+                        <p>게시판 리스트가 들어올거임</p>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="gallery-section">
+                <h3>갤러리</h3>
+                <ul class="gallery-box">
+                    <li>
+                        <a href="#none">
+                            <img src="./images/gallery1.jpg" alt="첫 번째 갤러리 이미지입니다.">
+                            <span>대학상징1</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#none">
+                            <img src="./images/gallery2.jpg" alt="두 번째 갤러리 이미지입니다.">
+                            <span>대학상징2</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#none">
+                            <img src="./images/gallery3.jpg" alt="세 번째 갤러리 이미지입니다.">
+                            <span>대학상징3</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </article>
+    </section>
+
+    <!-- 푸터영역 -->
+    <footer>
+        <p class="footer-left">
+            경기도 성남시 분당구 돌마로 46 (광천빌딩 5층)
+            <br>그린컴퓨터에서 ui/ux 웹디자인+웹퍼블리셔 수업중 (강쌤)
+        </p>
+        <div class="footer-right">
+            <ul class="sns-icon-list">
+                <li class="kakao"><a href="#none"><img src="./images/sns1.png" alt="카카오톡 아이콘 이미지입니다."></a></li>
+                <li class="facebook"><a href="#none"><img src="./images/sns2.png" alt="페이스북 아이콘 이미지입니다."></a></li>
+                <li class="twiter"><a href="#none"><img src="./images/sns3.png" alt="트위터 아이콘 이미지입니다."></a></li>
+            </ul>
+            <div class="famaily-site">
+                <input type="checkbox" name="family" id="family">
+                <label for="family">famaily site</label>
+                <ul class="famaily-site-list">
+                    <li><a href="#none">naver</a></li>
+                    <li><a href="#none">daum</a></li>
+                    <li><a href="#none">nate</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal">
+        <div class="popup">
+            <h3>기능대학교 팝업 이벤트: 미래를 준비하는 혁신적인 교육</h3>
+            <p>
+                <a href="#">
+                    안녕하세요! 기능대학교 팝업 이벤트에 참석해 주셔서 감사합니다.
+                    <br> 우리는 미래를 준비하는 혁신적인 교육을 제공하고자 합니다. 
+                    <br>최신 기술과 산업에 필요한 실무 역량을 갖춘 학생들을 양성하여 
+                    <br>미래를 이끄는 인재로 성장시키고 있습니다. 함께해주세요!
+                </a>
+            </p>
+            <button class="close-btn">닫기</button>
+        </div>
+    </div>
+    <script src="./script/jquery-3.7.0.min.js"></script>
+    <script src="./script/main.js"></script>
 </body>
 </html>
